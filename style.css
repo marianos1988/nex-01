@@ -138,3 +138,72 @@
 .mobile-nav-first-row-icon.p-relative.svg-icon-text {
     color: #fff;
 }
+
+
+/*Navbar para PC*/
+
+.desktop-nav,
+.desktop-nav-list {
+border-radius: 10px;
+background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
+			 padding: 14px 0px;
+			 font-size: 10px;
+			 font-weight: 600;
+			 letter-spacing: 1px;
+			 text-decoration: none;
+}
+
+.js-desktop-nav.desktop-nav.hidden-phone.font-small .js-desktop-nav-item.desktop-nav-item.js-nav-main-item {
+	border-radius: 10px;
+	background-color: #1e1e1e;
+	text-decoration: none;
+	border: 2px #fff solid;
+	font-weight: 900;
+}
+
+.js-desktop-nav.desktop-nav.hidden-phone.font-small .js-desktop-nav-item.desktop-nav-item.js-nav-main-item:hover {
+
+	
+	text-decoration: none;
+	border: 2px #ff0505 solid;
+	transition: all .4s ease-in;
+	
+}
+
+.js-desktop-nav-item.desktop-nav-item.js-nav-main-item .nav-list-link.desktop-nav-link:hover {
+	color: #ff0505 !important;
+	transition: all .4s ease-in;
+}
+
+.js-desktop-nav-item.desktop-nav-item.js-nav-main-item.current {
+
+	border: 2px #7c0707 solid !important;
+
+}
+
+.js-desktop-nav-item.desktop-nav-item.js-nav-main-item.current .nav-list-link.desktop-nav-link.current {
+	color: #7c0707 !important;
+}
+
+
+
+.nav-item-container .nav-list-link.desktop-nav-link.position-relative,
+.js-desktop-nav-item.desktop-nav-item.js-nav-main-item .nav-list-link.desktop-nav-link {
+	text-decoration: none;
+	color: #fff;
+	border: none;
+}
+
+.nav-item-container .nav-list-link.desktop-nav-link.position-relative:hover,
+.js-desktop-nav-item.desktop-nav-item.js-nav-main-item .nav-list-link.desktop-nav-link:hover {
+	color: #858585;
+	transition: all .4s ease-in;
+}
+
+.js-desktop-nav-item.desktop-nav-item.js-nav-main-item.current .nav-list-link.desktop-nav-link.current,
+.js-desktop-nav-item.js-item-subitems-desktop.desktop-nav-item.js-nav-main-item.current div a {
+	color: #858585;
+}
+
+
+ 
