@@ -206,4 +206,72 @@ background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
 }
 
 
- 
+/* navbar para version mobile*/
+
+.js-modal.new-modal.modal-left.hamburger-panel.modal-show {
+	background: #e0e0e0;
+	box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+
+.mobile-nav-tab-text .svg-inline--fa.d-inline-block.m-left-quarter:hover, 
+.mobile-nav-tab   .mobile-nav-tab-text:hover {
+	color: #fff;
+	fill: #fff;
+	transition: all .4s ease-in;
+}
+
+.modal-with-fixed-footer .modal-scrollable-area {
+	background: #000;
+	background: linear-gradient(0deg, rgba(255,0,0,1) 7%, rgba(0,0,0,1) 57%);
+}
+
+.js-modal-close.btn-hamburger-close.p-absolute .svg-inline--fa.btn-hamburger-close-icon.pull-right.p-all-half.svg-icon-text {
+	fill: #fff;
+}
+
+.list-items li .hamburger-panel-link.weight-normal {
+	color: #fff;
+	text-decoration: none;
+}
+
+.js-modal-close.btn-hamburger-close.p-absolute .svg-inline--fa.btn-hamburger-close-icon.pull-right.p-all-half.svg-icon-text:hover,
+.list-items li .hamburger-panel-link.weight-normal:hover {
+	color: #ff0505;
+	fill: #ff0505;
+	transition: all .4s ease-in;
+	cursor: pointer;
+}
+
+.list-items li {
+	border-top: 2px solid #fa1414;
+}
+
+.list-items li:last-child {
+	border-top: 2px solid #fa1414;
+	border-bottom: 2px solid #fa1414;
+}
+
+.modal-with-fixed-footer .mobile-accounts {
+	background: linear-gradient(0deg, #807f7f 7%, #000000 57%);
+	border-top: solid 2px #fff;
+}
+
+.clear-both.p-top-half.p-bottom-half .user-badge {
+	border-radius: 10px;
+	border: 1px #fff solid;
+	box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.75);
+}
+
+.d-table.m-top-half li a {
+	font-weight: 900;
+	color: #fff;
+	text-decoration: none;
+}
+
+.d-table.m-top-half li a:hover {
+
+	color: #ff0505;
+	transition: all .4s ease-in;
+
+}
