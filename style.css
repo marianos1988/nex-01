@@ -275,3 +275,96 @@ background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
 	transition: all .4s ease-in;
 
 }
+.d-table.m-top-half li a:hover::after {
+
+	color: #fff;
+
+
+}
+
+
+
+/* Footer   */
+
+footer {    
+	border-top: #ff0505 2px solid;
+
+}
+
+footer .footer {
+	background: rgb(255,0,0);
+    background: linear-gradient(0deg, rgba(255,0,0,1) 7%, rgba(0,0,0,1) 57%);
+}
+
+
+.row-fluid div div h4 {
+	color: #fff;
+	font-size: 16px;
+}
+
+.wrap-list-xs a {
+	color: #fff;
+	font-weight: 600;
+	text-decoration: none !important;
+	padding: 3px 4px !important;
+	border-radius: 15px;
+	text-align: center !important;
+	display: inline;
+}
+
+.wrap-list-xs a:hover {
+	color: #ff0505;;
+	border: 2px solid #ff0505;
+	transition: all .4s ease-in;
+}
+
+@media (min-width:770px) {
+	.wrap-list-xs a{
+		line-height: 2.5;
+	}
+	
+}
+
+.col-foot.clearfix .footer-icon.rounded-icon svg:hover {
+	box-shadow: 0px 0px 15px 0px #ff0505;
+	fill: #ff0505;
+	transition: all .4s ease-in;
+}
+
+.input-append.full-width.p-relative.m-none-xs .m-none.newsletter-footer-input.footer-input.border-box.form-control.span8  {
+	background-color: #fff !important;
+	border: #000 solid 2px !important;
+	color: #000 !important;
+	box-shadow:  20px 20px 60px #bebebe,
+	-20px -20px 60px #ffffff;
+}
+
+.input-append.full-width.p-relative.m-none-xs .m-none.newsletter-footer-input.footer-input.border-box.form-control.span8:focus  {
+	box-shadow: 0px 0px 14px 8px #fa1414;
+	transition: all .4s ease-in;
+}
+
+.newsletter-footer.js-newsletter-footer.p-relative .contact-error.alert.alert-danger.alert-danger-contrast.p-none {
+	color: #2f2e2e;
+}
+
+footer .js-footer-legal.footer-legal.font-small-extra.text-uppercase {
+	background-color: #1e1e1e;
+	border-top: #e0e0e0 2px solid;
+}
+
+.span9.text-center-xs .copyright.text-right.text-center-xs,
+.claim-link.d-inline-block.d-block-xs.m-left-quarter.m-none-xs.m-top-quarter-xs span,
+.claim-link.d-inline-block.d-block-xs.m-left-quarter.m-none-xs.m-top-quarter-xs a {
+	color: #fff;
+}
+
+.claim-link.d-inline-block.d-block-xs.m-left-quarter.m-none-xs.m-top-quarter-xs a {
+
+}
+
+.claim-link.d-inline-block.d-block-xs.m-left-quarter.m-none-xs.m-top-quarter-xs a:hover {
+	color: #ff0505;
+	transition: all .4s ease-in;
+	text-decoration: none !important;
+}
