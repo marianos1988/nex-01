@@ -208,6 +208,13 @@ background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
 
 /* navbar para version mobile*/
 
+.js-modal-close.btn-hamburger-close.p-absolute {
+	transform: translate(-35px, -3px);
+	position: absolute;
+	z-index: 999;
+}
+
+
 .js-modal.new-modal.modal-left.hamburger-panel.modal-show {
 	background: #e0e0e0;
 	box-shadow:  20px 20px 60px #bebebe,
@@ -282,6 +289,14 @@ background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
 
 }
 
+.hamburger-panel-arrow.p-all-quarter.p-absolute.transition-soft svg {
+ 	fill: #fff;
+}
+
+.hamburger-panel-arrow.p-all-quarter.p-absolute.transition-soft svg:hover {
+	fill: #ff0505;
+	transition: all .4s ease-in;
+}
 
 
 /* Footer   */
@@ -367,4 +382,17 @@ footer .js-footer-legal.footer-legal.font-small-extra.text-uppercase {
 	color: #ff0505;
 	transition: all .4s ease-in;
 	text-decoration: none !important;
+}
+
+
+
+/* Seccion Productos */
+
+.breadcrumb.m-bottom-half.m-top-half .breadcrumb-crumb.active {
+	color: #000; /* El color del texto */
+	text-shadow: 
+	  -1px -1px 0 #ff0505,  /* Sombra superior izquierda */
+	  1px -1px 0 #ff0505,   /* Sombra superior derecha */
+	  -1px 1px 0 #ff0505,   /* Sombra inferior izquierda */
+	  1px 1px 0 #ff0505;    /* Sombra inferior derecha */
 }
