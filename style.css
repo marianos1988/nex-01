@@ -251,6 +251,31 @@ background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
 	color: #858585;
 }
 
+.js-megamenu.megamenu {
+	width: 100%;
+}
+
+.megamenu-list.container.list-subitems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+	border-radius: 10px;
+	border: 1px solid #ce1515;
+	background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
+	padding: 14px 0px;
+	font-size: 10px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.megamenu-list.container.list-subitems li {
+	background-color: inherit;
+	margin: 0px 10px;
+	font-size: 11px;
+}
+
 
 /* navbar para version mobile*/
 
