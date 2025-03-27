@@ -299,6 +299,8 @@ background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
 	transition: all .4s ease-in;
 }
 
+
+
 .modal-with-fixed-footer .modal-scrollable-area {
 	background: #000;
 	background: linear-gradient(0deg, rgba(255,0,0,1) 7%, rgba(0,0,0,1) 57%);
@@ -307,6 +309,7 @@ background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
 .js-modal-close.btn-hamburger-close.p-absolute .svg-inline--fa.btn-hamburger-close-icon.pull-right.p-all-half.svg-icon-text {
 	fill: #fff;
 }
+
 
 .list-items li .hamburger-panel-link.weight-normal {
 	color: #fff;
@@ -371,6 +374,92 @@ background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
 
 .js-pages-accordion.list-subitems.hamburger-panel-accordion li:last-child {
 	border-bottom: none;
+}
+
+/*Carrito de Compras Mobile*/
+
+.modal-xs-dialog {
+	background: #000;
+	background: linear-gradient(0deg, rgba(255,0,0,1) 7%, rgba(0,0,0,1) 57%);
+}
+
+.visible-phone.pull-right.text-right.cart-item-subtotal .js-cart-item-subtotal.h6-xs,
+.h6-xs span,
+.js-toggle-cart.js-fullscreen-modal-close.visible-phone.modal-xs-header span,
+.js-toggle-cart.js-fullscreen-modal-close.visible-phone.modal-xs-header svg {
+	color: #fff;
+	fill:#fff
+}
+
+.h6-xs span:hover,
+.js-toggle-cart.js-fullscreen-modal-close.visible-phone.modal-xs-header span:hover,
+.js-toggle-cart.js-fullscreen-modal-close.visible-phone.modal-xs-header svg:hover {
+	color: #ff0505 !important;
+	fill:#ff0505;
+	transition: all .4s ease-in;
+}
+
+.ajax-cart-item-image-col.ajax-cart-item-col img {
+	border-radius: 10px;
+	border: #000 2px solid;
+	-webkit-box-shadow: 0px 0px 8px 3px rgba(255,5,5,1);
+-moz-box-shadow: 0px 0px 8px 3px rgba(255,5,5,1);
+box-shadow: 0px 0px 8px 3px rgba(255,5,5,1);
+
+}
+
+.cart-quantity-svg-icon.svg-icon-text svg {
+	fill: #fff;
+}
+
+.cart-quantity-svg-icon.svg-icon-text svg:hover {
+	fill:#ff0505;
+	transition: all .4s ease-in;
+}
+
+.cart-quantity-input-container.d-inline-block.pull-left .js-cart-quantity-input.cart-quantity-input:focus {
+	border: #000 2px solid;
+	-webkit-box-shadow: 0px 0px 8px 3px rgba(255,5,5,1);
+-moz-box-shadow: 0px 0px 8px 3px rgba(255,5,5,1);
+box-shadow: 0px 0px 8px 3px rgba(255,5,5,1);
+transition: all .4s ease-in;
+}
+
+.ajax-cart-total.h4.ajax-cart-subtotal.cart-subtotal.js-visible-on-cart-filled.row-fluid.pull-left.m-bottom-none span,
+.js-cart-total-container.ajax-cart-total-container.cart-total.h2.js-visible-on-cart-filled.pull-left.row-fluid span {
+color: #fff;
+}
+
+.js-ajax-cart-submit.pull-right.full-width-xs .pull-right.full-width-xs.btn.btn-primary {
+	border-radius: 10px;
+	background-color: #000;
+	border: 2px solid #fff;
+
+}
+
+.js-ajax-cart-submit.pull-right.full-width-xs .pull-right.full-width-xs.btn.btn-primary:hover {
+	border-radius: 10px;
+	border: 2px solid #ff0505;
+	color: #ff0505;
+	transition: all .4s ease-in;
+	
+}
+
+.m-top.m-bottom-half.pull-left.text-center.full-width.visible-phone.text-uppercase .js-toggle-cart a {
+	color: #fff !important;
+}
+
+.m-top.m-bottom-half.pull-left.text-center.full-width.visible-phone.text-uppercase a:hover {
+	color: #ff0505 !important;
+	transition: all .4s ease-in;
+}
+
+.m-top.m-bottom-half.pull-left.text-center.full-width.visible-phone.text-uppercase a {
+	color: #fff !important;
+}
+
+.m-top.m-bottom-half.pull-left.text-center.full-width.visible-phone.text-uppercase a:hover {
+	color:  #ff0505 !important;
 }
 
 /* Footer   */
