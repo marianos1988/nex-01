@@ -380,9 +380,19 @@ background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
 
 .modal-xs-dialog {
 	background: #000;
-	background: linear-gradient(0deg, rgba(255,0,0,1) 7%, rgba(0,0,0,1) 57%);
+	background: linear-gradient(90deg, rgba(255, 0, 0, 1) -15%, rgba(0, 0, 0, 1) 33%);
 }
 
+
+.js-ajax-cart-panel.js-fullscreen-modal.ajax-cart-container.modal-right.modal-xs.modal-xs-right.modal-xs-right-out {
+	background: #000;
+	background: linear-gradient(90deg, rgba(255, 0, 0, 1) -15%, rgba(0, 0, 0, 1) 33%);
+}
+
+.js-cart-item-subtotal,
+.text-right.pull-right.cart-subtotal-header p,
+.pull-left p,
+.span8 .text-uppercase,
 .visible-phone.pull-right.text-right.cart-item-subtotal .js-cart-item-subtotal.h6-xs,
 .h6-xs span,
 .js-toggle-cart.js-fullscreen-modal-close.visible-phone.modal-xs-header span,
@@ -391,6 +401,11 @@ background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
 	fill:#fff
 }
 
+.m-top-half.m-bottom-half.text-left.pull-left.hidden-phone {
+	color: #807f7f !important;
+}
+
+.m-top-half.m-bottom-half.text-left.pull-left.hidden-phone:hover,
 .h6-xs span:hover,
 .js-toggle-cart.js-fullscreen-modal-close.visible-phone.modal-xs-header span:hover,
 .js-toggle-cart.js-fullscreen-modal-close.visible-phone.modal-xs-header svg:hover {
@@ -398,6 +413,8 @@ background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
 	fill:#ff0505;
 	transition: all .4s ease-in;
 }
+
+
 
 .ajax-cart-item-image-col.ajax-cart-item-col img {
 	border-radius: 10px;
@@ -460,6 +477,17 @@ color: #fff;
 
 .m-top.m-bottom-half.pull-left.text-center.full-width.visible-phone.text-uppercase a:hover {
 	color:  #ff0505 !important;
+}
+
+.span4 .js-toggle-cart.btn-floating.pull-right.m-top-quarter.m-right-half {
+	border: none;
+	background-color: inherit;
+	fill: #fff;
+}
+
+.span4 .js-toggle-cart.btn-floating.pull-right.m-top-quarter.m-right-half:hover {
+	fill: #ff0505;
+	transition: all .4s ease-in;
 }
 
 /* Footer   */
