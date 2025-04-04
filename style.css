@@ -613,11 +613,13 @@ footer .js-footer-legal.footer-legal.font-small-extra.text-uppercase {
     background: linear-gradient(0deg, rgb(78, 78, 78) 7%, rgba(0,0,0,1) 57%);
 }
 
-
+.list-unstyled.pills-container li,
+.filters-container.full-width-container .m-bottom,
 .js-toggle-mobile-filters.js-fullscreen-modal-open.btn.btn-secondary.btn-smallest.mobile-filters-btn.pull-right.visible-phone.p-relative span,
 .js-toggle-mobile-filters.js-fullscreen-modal-open.btn.btn-secondary.btn-smallest.mobile-filters-btn.pull-right.visible-phone.p-relative svg {
 	color: #fff;
 	fill: #fff;
+	text-decoration: none;
 
 }
 
@@ -625,11 +627,14 @@ footer .js-footer-legal.footer-legal.font-small-extra.text-uppercase {
 	border: #fff 1px solid;
 }
 
+.list-unstyled.pills-container .pill:hover,
+.filters-container.full-width-container .m-bottom:hover,
 .js-toggle-mobile-filters.js-fullscreen-modal-open.btn.btn-secondary.btn-smallest.mobile-filters-btn.pull-right.visible-phone.p-relative span:hover,
 .js-toggle-mobile-filters.js-fullscreen-modal-open.btn.btn-secondary.btn-smallest.mobile-filters-btn.pull-right.visible-phone.p-relative svg:hover {
 	color: #ff0505;
 	fill: #ff0505;
 	transition: all .4s ease-in;
+	text-decoration: none;
 }
 
 .js-category-controls.category-controls.container-xs.visible-phone.visible-when-content-ready .btn-secondary:hover {
