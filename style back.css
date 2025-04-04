@@ -27,8 +27,8 @@ header {
 }
 
 .head-container {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(0deg, rgb(78, 78, 78) 7%, rgba(0,0,0,1) 57%);
+    background: rgb(255,0,0);
+    background: linear-gradient(0deg, rgba(255,0,0,1) 7%, rgba(0,0,0,1) 57%);
     width: 100%;
 }
 
@@ -39,7 +39,7 @@ header {
 	border-radius: 20px ;
 	border: 2px solid #000;
 	border-radius: 50px;
-	box-shadow:  10px 10px 35px #707070,-10px -10px 35px #c2c2c2;
+	box-shadow:  10px 10px 35px #fa1414,-10px -10px 35px #ff2d2d;
 }
 
 .logo-img-container.mobile-logo-home.text-center-xs a img:hover {
@@ -82,6 +82,9 @@ header {
 	transition: all .4s ease-in;
 }
 
+.user-access.font-small-extra.m-right-quarter.align-middle.hidden-phone {
+
+}
 
 .user-access.font-small-extra.m-right-quarter.align-middle.hidden-phone a {
 	font-size: 11px;
@@ -300,30 +303,17 @@ background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
 
 .modal-with-fixed-footer .modal-scrollable-area {
 	background: #000;
-	background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
+	background: linear-gradient(0deg, rgba(255,0,0,1) 7%, rgba(0,0,0,1) 57%);
 }
 
 .js-modal-close.btn-hamburger-close.p-absolute .svg-inline--fa.btn-hamburger-close-icon.pull-right.p-all-half.svg-icon-text {
 	fill: #fff;
 }
 
-.hamburger-panel-item.item-with-subitems a,
+
 .list-items li .hamburger-panel-link.weight-normal {
 	color: #fff;
-	font-weight: 400;
 	text-decoration: none;
-}
-
-.hamburger-panel-item.item-with-subitems a:hover {
-	color: #ff0505;
-	transition: all .4s ease-in;
-
-}
-
-.js-hamburger-panel-toggle-accordion .js-toggle-page-accordion.hamburger-panel-link.p-right-double.weight-normal.selected {
-
-	background-color: #b8b7b7;
-
 }
 
 .js-modal-close.btn-hamburger-close.p-absolute .svg-inline--fa.btn-hamburger-close-icon.pull-right.p-all-half.svg-icon-text:hover,
@@ -335,12 +325,12 @@ background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
 }
 
 .list-items li {
-	border-top: 2px solid #dbdbdb;
+	border-top: 2px solid #fa1414;
 }
 
 .list-items li:last-child {
-	border-top: 2px solid #dbdbdb;
-	border-bottom: 2px solid #dbdbdb;
+	border-top: 2px solid #fa1414;
+	border-bottom: 2px solid #fa1414;
 }
 
 .modal-with-fixed-footer .mobile-accounts {
@@ -511,7 +501,7 @@ footer {
 
 footer .footer {
 	background: rgb(255,0,0);
-    background: linear-gradient(0deg, rgb(78, 78, 78) 7%, rgba(0,0,0,1) 57%);
+    background: linear-gradient(0deg, rgba(255,0,0,1) 7%, rgba(0,0,0,1) 57%);
 }
 
 
