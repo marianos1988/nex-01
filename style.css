@@ -771,6 +771,7 @@ footer .js-footer-legal.footer-legal.font-small-extra.text-uppercase {
 	color: #fa1414;
 }
 
+.js-product-table.product-table .grid-row,
 .js-product-table.pull-left.row-fluid.m-bottom.m-top-xs .grid-row {
 	display: flex;
 	justify-content: center;
@@ -803,7 +804,7 @@ footer .js-footer-legal.footer-legal.font-small-extra.text-uppercase {
 	.grid-row .span3.item-container.m-bottom-half {
 		margin: 0 2% 20px 2%;
 		width: 170px !important;
-		height: 200px !important;
+		height: 270px !important;
 	}
 
 	.js-item-image-padding.p-relative a img {
