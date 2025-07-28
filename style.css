@@ -253,8 +253,8 @@ background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
 }
 
 .megamenu-list.container.list-subitems{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+
     justify-content: space-around;
     align-items: center;
 	border-radius: 10px;
@@ -745,7 +745,7 @@ footer .js-footer-legal.footer-legal.font-small-extra.text-uppercase {
 	width: 200px;
 	padding: 15px 10px 0px 10px;
 	border-radius: 8px;
-	box-shadow: 5px 5px 10px #727272, -5px -5px 10px #d1d1d1;
+	box-shadow: 5px 5px 10px #727272, -5px -5px 10px #d1d1d1; 
 }
 
 .hidden-phone .list-unstyled li a {
@@ -806,7 +806,7 @@ footer .js-footer-legal.footer-legal.font-small-extra.text-uppercase {
 	.grid-row .span3.item-container.m-bottom-half {
 		margin: 0 2% 20px 2%;
 		width: 220px !important;
-		height: 350px !important;
+		height: 275px !important;
 	}
 
 	.span3.item-container.m-bottom-half .item-info-container {
@@ -823,7 +823,17 @@ footer .js-footer-legal.footer-legal.font-small-extra.text-uppercase {
 	.product-grid-labels .js-stock-label.item-label.product-label.label-light.font-small {
 		transform: translateY(-7px);
 		font-weight: 600;
+		color: transparent;
+		  position: relative;
 	}
+
+	.product-grid-labels .js-stock-label.item-label.product-label.label-light.font-small:before {
+  content: "SOLD OUT";
+  color: #fa1414;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
 
 }
 
@@ -831,7 +841,7 @@ footer .js-footer-legal.footer-legal.font-small-extra.text-uppercase {
 	.grid-row .span3.item-container.m-bottom-half {
 		margin: 0 2% 20px 2%;
 		width: 170px !important;
-		height: 320px !important;
+		height: 300px !important;
 	}
 
 	.js-item-image-padding.p-relative a img {
@@ -849,6 +859,14 @@ footer .js-footer-legal.footer-legal.font-small-extra.text-uppercase {
 		transform: translateY(-5px);
 		font-weight: 600;
 	}
+
+		.product-grid-labels .js-stock-label.item-label.product-label.label-light.font-small:before {
+  content: "SOLD OUT";
+  color: #fa1414;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
 }
 
 .js-item-image-container.item-image-container .item-info-container {
@@ -862,7 +880,9 @@ footer .js-footer-legal.footer-legal.font-small-extra.text-uppercase {
 	transition: all .4s ease-in;
 }
 
-
+.js-product-item-image-container-private.product-item-image-container.js-item-image-container.item-image-container {
+	height: 150px;
+}
 
 /* Contacto*/
 
@@ -950,5 +970,5 @@ footer .js-footer-legal.footer-legal.font-small-extra.text-uppercase {
 		color: #ff0505;
 		border: 2px solid#ff0505;
 		transition: all .4s ease-in;
-	}
+	} 
 }

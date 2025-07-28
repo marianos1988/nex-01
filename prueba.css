@@ -1,0 +1,14 @@
+
+
+h1 {
+  color: transparent; /* Oculta el texto original */
+  position: relative;
+}
+
+h1:before {
+  content: "Texto nuevo desde CSS";
+  color: black;
+  position: absolute;
+  left: 0;
+  top: 0;
+}

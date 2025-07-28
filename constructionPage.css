@@ -1,0 +1,7 @@
+.template-password .visible-when-content-ready .container-xs .text-center.m-auto .logo-img-container.mobile-logo-home.text-center-xs a img {
+    transform: translateY(150px) !important;
+}
+
+.visible-when-content-ready {
+    background-color: aquamarine;
+}
